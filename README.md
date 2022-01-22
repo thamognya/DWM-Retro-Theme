@@ -15,3 +15,7 @@ Editor: <a href="https://neovim.io" target="_blank">neovim</a>
 ColorScheme: System-6
 
 <hr>
+
+### Pictures 
+
+<div align='center'><img align="center" src="https://github.com/ThamognyaKodi/DWM-Retro-Theme/blob/main/dwmconfig.png"></div>
