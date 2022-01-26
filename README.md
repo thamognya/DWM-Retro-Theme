@@ -19,3 +19,5 @@ ColorScheme: System-6
 ### Pictures 
 
 <div align='center'><img align="center" src="https://github.com/ThamognyaKodi/DWM-Retro-Theme/blob/main/dwmconfig.png"></div>
+
+Currently this going to be my last edit to this repo. So if you think you can contribute then make a pr or issue and I will look into it. Also check contributing.md for more info.
