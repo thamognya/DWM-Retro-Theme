@@ -16,6 +16,11 @@ ColorScheme: System-6
 
 <hr>
 
+
+### Scripts
+
+These are luke smith scripts specifically from the <a href="https://github.com/LukeSmithxyz/voidrice" target="_blank">voidrice repo</a>. These are not mine.
+
 ### Pictures 
 
 <div align='center'><img align="center" src="https://github.com/ThamognyaKodi/DWM-Retro-Theme/blob/main/dwmconfig.png"></div>

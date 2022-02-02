@@ -3,10 +3,10 @@
 /* appearance */
 static const unsigned int borderpx  = 5;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
-static const unsigned int gappih    = 10;       /* horiz inner gap between windows */
-static const unsigned int gappiv    = 10;       /* vert inner gap between windows */
-static const unsigned int gappoh    = 10;       /* horiz outer gap between windows and screen edge */
-static const unsigned int gappov    = 10;       /* vert outer gap between windows and screen edge */
+static const unsigned int gappih    = 20;       /* horiz inner gap between windows */
+static const unsigned int gappiv    = 20;       /* vert inner gap between windows */
+static const unsigned int gappoh    = 20;       /* horiz outer gap between windows and screen edge */
+static const unsigned int gappov    = 20;       /* vert outer gap between windows and screen edge */
 static       int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 0;        /* 0 means bottom bar */
@@ -124,13 +124,13 @@ static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() 
 static const char *dmenucmd[] = { "dmenu_run", "-l", "20", NULL };
 static const char *termcmd[]  = { "st", NULL };
 static const char *slockcmd[]  = { "slock", NULL };
-static const char *browsercmd[]  = { "vivaldi-snapshot", NULL };
+static const char *browsercmd[]  = { "vivaldi-stable", NULL };
 static const char *emailcmd[]  = { "thunderbird-bin", NULL };
 static const char *screenshotcmd[]  = { "flameshot", "gui", "-p", "/home/jeff/Pictures/screenshots", NULL };
-static const char *animecmd[]  = {"st", "-e", "/home/jeff/git_repos/ani-cli/ani-cli", NULL };
+static const char *animecmd[]  = {"st", "-e", "/home/jeff/git_repos/download/ani-cli/ani-cli", NULL };
 static const char *youtubecmd[]  = {"st", "-e", "ytfzf", "-t", NULL };
 static const char *rangercmd[]  = {"st", "-e", "ranger", NULL };
-static const char *mangacmd[]  = {"st", "-e", "/home/jeff/git_repos/manga-cli/manga-cli", NULL };
+static const char *mangacmd[]  = {"st", "-e", "/home/jeff/git_repos/download/manga-cli/manga-cli", NULL };
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
